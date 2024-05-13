@@ -30,8 +30,8 @@ try {
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = "New table booking request from the website";
-    $mail->Body    = "Name: {$_POST['name']}<br>Email: {$_POST['email']}<br>Phone: {$_POST['phone']}<br>Address: {$_POST['address']}<br>Country: {$_POST['country']}<br># of people: {$_POST['people']}<br>Message: {$_POST['message']}";
-    
+    $mail->Body    = "Name: {$_POST['name']}<br>Email: {$_POST['email']}<br>Phone: {$_POST['phone']}<br>Address: {$_POST['address']}<br>Country: {$_POST['country']}<br>Type Product: {$_POST['people']}<br>Message: {$_POST['message']}";
+
     // Send the email
     $mail->send();
     echo 'OK';

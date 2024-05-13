@@ -896,6 +896,7 @@ class PHPMailer
      *
      * @param string $str
      */
+    
     protected function edebug($str)
     {
         if ($this->SMTPDebug <= 0) {

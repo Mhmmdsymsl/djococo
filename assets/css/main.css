@@ -1424,6 +1424,8 @@ section {
   background: #27ec41;
 }
 
+
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1682,6 +1684,8 @@ section {
 @media (min-width: 576px) {
   .tempaltemo-carousel .h1 { font-size: 1em !important;}
 }
+
+
 
 /* .card {
   border-radius:0;
